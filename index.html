@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Antai | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Lexend', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+
+    .navigation-header {
+      background-color: #003366;
+      padding: 1rem;
+      color: white;
+      text-align: center;
+    }
+
+    .navigation-header h1 {
+      margin: 0;
+    }
+
+    .navigation-header nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0.5rem 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .navigation-header nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .profile-section {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem;
+      background-color: #eef6fb;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .profile-image {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #003366;
+    }
+
+    .text-body {
+      padding: 2rem;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #003366;
+      color: white;
+    }
+
+    .back-to-top {
+      color: white;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header class="navigation-header">
+    <h1>Antai Okon-Otoyo</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home |</a></li>
+        <li><a href="#">Projects |</a></li>
+        <li><a href="#">Resume |</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="profile-section">
+    <img src="linkedin-profile-pic.jpeg" alt="Profile Picture" class="profile-image" />
+    <div>
+      <h2>Cloud & DevOps Engineer</h2>
+      <p>I create observability systems to improve system uptime while automating the future one YAML at a time.</p>
+    </div>
+  </section>
+
+  <section class="text-body">
+    <h2>About Me</h2>
+    <p>
+      My name is Antai Okon-Otoyo. I'm a senior technical support engineer transitioning into a Cloud/DevOps role. I’m passionate about automation, monitoring, and building resilient cloud-native systems.
+    </p>
+  </section>
+
+  <footer>
+    <a href="#top" class="back-to-top">Return to Top</a>
+  </footer>
+</body>
+</html>
